@@ -16,7 +16,7 @@ let package = Package(
         .library(name: "CrowdinXCTestScreenshots", targets: ["CrowdinXCTestScreenshots"])
     ],
     dependencies: [
-        .package(url: "https://github.com/sth-nvajda/BaseAPI.git", .exact(from: "0.2.1")),
+        .package(url: "https://github.com/sth-nvajda/BaseAPI.git", .upToNextMajor(from: "0.2.1")),
         .package(url: "https://github.com/daltoniam/Starscream.git", .exact(from: "4.0.8"))
     ],
     targets: [
